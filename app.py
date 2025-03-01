@@ -10,6 +10,12 @@ import os
 import tempfile
 import torch
 import time
+from dotenv import load_dotenv
+
+#setting HF TOken
+load_dotenv()
+HF_TOKEN = os.getenv("HUGGINGFACE_API_TOKEN")
+
 
 # Set Streamlit page configuration
 st.set_page_config(page_title="PDF Question Answering Bot", layout="wide")
@@ -58,7 +64,7 @@ def setup_conversation_chain(vectorstore):
     # Define the language model
     llm = HuggingFaceEndpoint(
         repo_id="mistralai/Mistral-7B-Instruct-v0.2",
-        huggingfacehub_api_token="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",
+        huggingfacehub_api_token="HF_TOKEN",
         temperature=0.5, top_p=0.9, top_k=50, repetition_penalty=1.2
     )
     

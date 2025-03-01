@@ -11,3 +11,4 @@ accelerate
 torch
 protobuf
 pydantic
+python-dotenvtouch
