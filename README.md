@@ -44,6 +44,9 @@ cd pdf-qa-chatbot
 
 2. Install the required dependencies:
 ```bash
+python -m venv venv
+source venv/bin/activate  # On macOS/Linux
+venv\Scripts\activate     # On Windows
 pip install -r requirements.txt
 ```
 
