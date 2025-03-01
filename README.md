@@ -72,7 +72,7 @@ docker build -t pdf-qa-chatbot .
 
 2. Run the container with your Hugging Face API token:
 ```bash
-docker run -p 8501:8501 -e HUGGINGFACE_API_TOKEN=your_huggingface_token pdf-qa-chatbot
+docker run -p 8501:8501 pdf-qa-chatbot
 ```
 
 3. Access the application at http://localhost:8501
