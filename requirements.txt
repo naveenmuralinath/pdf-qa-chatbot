@@ -1,0 +1,13 @@
+langchain-community
+langchain-core
+langchain-huggingface
+streamlit
+faiss-cpu
+pypdf
+sentence-transformers
+huggingface-hub
+transformers
+accelerate
+torch
+protobuf
+pydantic
