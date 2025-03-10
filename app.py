@@ -64,7 +64,7 @@ def setup_conversation_chain(vectorstore):
     # Define the language model
     llm = HuggingFaceEndpoint(
         repo_id="mistralai/Mistral-7B-Instruct-v0.2",
-        huggingfacehub_api_token="HF_TOKEN",
+        HUGGINGFACE_API_TOKEN="HUGGINGFACE_API_TOKEN",
         temperature=0.5, top_p=0.9, top_k=50, repetition_penalty=1.2
     )
     
