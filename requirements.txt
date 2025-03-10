@@ -11,4 +11,4 @@ accelerate
 torch
 protobuf
 pydantic
-python-dotenvtouch
+python-dotenv
